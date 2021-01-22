@@ -1,3 +1,7 @@
+
+require("babel-core/register");
+require("babel-polyfill");
+"use strict"
 function runScript () {
     const location = 'Birmingham'; //turn into function 
     const api = `1b4d147a771b3fdaab5cbdcb7fe437d4`; 
@@ -70,6 +74,7 @@ function runScript () {
 
 
 document.addEventListener('DOMContentLoaded', runScript)
+
 
 
 
